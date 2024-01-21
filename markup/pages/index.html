@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+    <head>
+        {{> head/head }}
+    </head>
+
+    <body class="body">
+        %=symbols=%
+
+        <div class="flex flex-col h-screen">
+            <!-- begin::header -->
+            {{> header/header }}
+            <!-- end::header -->
+
+            <!-- begin::page-content -->
+            <div class="flex-auto">
+                <!-- begin::parallax -->
+                {{> parallax/parallax }}
+                <!-- end::parallax -->
+            </div>
+            <!-- begin::end-content -->
+
+            <div class="flex-shrink-0">
+                <!-- begin::footer -->
+                {{> footer/footer }}
+                <!-- end::footer -->
+            </div>
+        </div>
+
+        <!-- begin::scripts -->
+        {{> assets/script }}
+        <!-- end::scripts -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
