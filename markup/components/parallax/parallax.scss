@@ -73,8 +73,11 @@ body {
     display: flex;
     font-size: 18px;
     letter-spacing: 6px;
-    margin: 0 0 30px 0;
     align-items: center;
+    padding-top: 198px;
+    margin: 0 auto;
+    max-width: 950px;
+    margin: 0 0 32px 0;
 }
 .parallax__label::before {
     flex: 0 0 70px;
@@ -85,7 +88,9 @@ body {
 }
 
 .parallax__title {
-    font-size: 88px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 6px;
 }
 
 .parallax__images {
@@ -96,9 +101,6 @@ body {
     left: -10%;
     z-index: 1;
 }
-
-/* .images-parallax {
-} */
 
 .images-parallax__item {
     position: absolute;
@@ -161,23 +163,6 @@ body {
     background: linear-gradient(180deg, rgba(11, 29, 38, 0) 5%, #0b1d26 100%);
 }
 
-// .content__container {
-// }
-
-.content__title {
-    font-size: 35px;
-    margin-bottom: 30px;
-}
-
-.content__text {
-    font-size: 16px;
-    line-height: 150%;
-}
-
-.content__text p {
-    margin-bottom: 30px;
-}
-
 @media (max-width: 479px) {
     .parallax__title {
         font-size: 36px;
@@ -196,4 +181,65 @@ body {
         font-size: 16px;
         margin: 0 0 15px 0;
     }
+}
+
+//мой код://
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__logo {
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 1%;
+}
+
+.header__list {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__item {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.header__log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.parallax__text {
+    font-weight: 600;
+    font-size: 88px;
+    color: #fff;
+}
+
+.card__label {
+    color: #fbd784;
+    display: flex;
+    font-size: 18px;
+    letter-spacing: 6px;
+    align-items: center;
+    padding-top: 198px;
+    margin: 0 auto;
+    max-width: 950px;
+    margin: 0 0 32px 0;
+}
+.card__label::before {
+    flex: 0 0 70px;
+    content: '';
+    margin: 0 30px 0 0;
+    background-color: #fbd784;
+    height: 1px;
 }

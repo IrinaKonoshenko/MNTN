@@ -2,8 +2,22 @@
     <section class="parallax">
         <div class="parallax__body">
             <div class="parallax__container _container">
-                <div class="parallax__label">
-                    <div class="parallax__title">hello</div>
+                <div class="parallax__header header">
+                    <div class="header__logo">MNTN</div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li class="header__item">Equipment</li>
+                            <li class="header__item">About us</li>
+                            <li class="header__item">Blog</li>
+                        </ul>
+                    </nav>
+                    <div class="header__log">{{Icon iconName='login' }} Account</div>
+                </div>
+                <div>
+                    <div class="parallax__label">
+                        <div class="parallax__title">A Hiking guide</div>
+                    </div>
+                    <div class="parallax__text">Be prepared for the Mountains and beyond!</div>
                 </div>
             </div>
             <div class="parallax__images images-parallax">
@@ -21,48 +35,60 @@
     </section>
     <section class="content">
         <div class="content__container container">
-            <h2 class="content__title">other text</h2>
-            <p class="content__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate exercitationem quidem
-                similique, quam blanditiis quaerat, numquam maxime ab qui harum aliquid ducimus suscipit
-                adipisci vel. Magni laborum accusantium laboriosam assumenda. Unde magnam amet veritatis
-                possimus vel culpa officiis, quo rem ut sunt, officia tenetur. Voluptatem quia, aliquam
-                cupiditate veritatis est saepe cum quae velit voluptatum dolorem quo illo nam quaerat! Iure
-                odit accusantium recusandae eveniet consequuntur aliquid nam, labore dignissimos deserunt eos
-                illum sunt sequi in qui est sint? Mollitia soluta excepturi natus ex impedit ratione debitis
-                commodi quis laboriosam. Vel fugit quisquam, perferendis repudiandae obcaecati, rem,
-                repellendus distinctio quae quibusdam eos officiis voluptatibus laborum quis iure nesciunt
-                praesentium harum voluptatum esse! Harum rem a fugit, architecto iste at quod? Odio voluptates
-                provident consectetur minima, a fuga praesentium, numquam expedita tempora quis quisquam harum
-                nisi eos illum nobis repellendus tenetur tempore vitae rem unde consequatur itaque deleniti?
-                Aliquid, tempore ipsam. Deserunt sequi quae sunt perspiciatis numquam quam veniam omnis earum,
-                reprehenderit ullam. Porro, autem fugiat? A ipsam laudantium, nam reprehenderit voluptas
-                temporibus, minus incidunt beatae modi id quo enim eum. Accusamus necessitatibus neque ut
-                iusto cumque asperiores corporis placeat, modi assumenda deserunt laudantium error dolore qui
-                veniam pariatur quo repudiandae distinctio nostrum dolores quod accusantium. Cupiditate
-                placeat error aliquam ipsa! Temporibus non, sequi pariatur assumenda ipsam dolores. Porro
-                quibusdam doloremque rem vitae dolorum deserunt voluptatum. Commodi porro perspiciatis laborum
-                atque corrupti dolore, expedita dolor necessitatibus, delectus consectetur exercitationem
-                blanditiis quia? Autem saepe voluptates ipsam nulla voluptas itaque corporis enim at quia
-                necessitatibus aut molestias quisquam delectus, eos maxime non fugiat? Necessitatibus minus
-                aperiam adipisci ea repellendus atque laboriosam, porro pariatur! Adipisci inventore quas
-                possimus tenetur, corrupti odio, cumque voluptas nostrum recusandae distinctio, perferendis
-                natus ab vero aliquid. Praesentium quas neque reiciendis magni amet, repellendus velit
-                similique nihil. Maxime, itaque blanditiis! Assumenda, iste placeat saepe dolores porro soluta
-                obcaecati cumque delectus fuga quaerat laborum doloremque numquam distinctio, adipisci
-                repellat mollitia reprehenderit tempore repellendus. Molestias placeat nam reiciendis nemo,
-                natus facilis inventore! Unde ex, velit voluptatibus illo perspiciatis quidem expedita vero
-                commodi cumque excepturi labore minus eveniet ut ad sequi in consequatur quod dignissimos.
-                Fugit asperiores sint laudantium veritatis maxime ipsum eius? Voluptatum, vel, aut iure
-                incidunt accusamus molestiae culpa repellat, sapiente tempora dicta voluptas! Provident,
-                consequuntur, id quam nam eius, quibusdam suscipit maxime laborum porro corporis numquam
-                asperiores cupiditate eum debitis? Dolorem recusandae nam dicta ipsum id nemo harum quod
-                adipisci, itaque laudantium et nostrum vel a velit voluptatem suscipit minus? Sapiente nostrum
-                quae molestiae beatae, sed similique ducimus rem voluptas. Similique unde culpa laboriosam
-                blanditiis inventore totam reprehenderit, quia quaerat odio voluptas alias repellendus?
-                Debitis error accusamus esse perspiciatis amet minima, veniam ea nemo magnam nihil dolore
-                sequi corrupti sunt?
-            </p>
+            <ul class="content__list">
+                <li class="content__item card">
+                    <div class="card__block">
+                        <div class="card__num">01</div>
+                        <div class="card__label">GEt Started</div>
+                        <div class="card__title">What level of hiker are you?</div>
+                        <div class="card__txt">
+                            Determining what level of hiker you are can be an important tool when planning
+                            future hikes. This hiking level guide will help you plan hikes according to
+                            different hike ratings set by various websites like All Trails and Modern Hiker.
+                            What type of hiker are you – novice, moderate, advanced moderate, expert, or
+                            expert backpacker?
+                        </div>
+                        <button class="card__btn">read more {{Icon iconName='arrow' }}</button>
+                    </div>
+                    <div class="card__img">
+                        <img src="../../static/img/content/photo1.jpeg" alt="" />
+                    </div>
+                </li>
+                <li class="content__item card">
+                    <div class="card__img">
+                        <img src="../../static/img/content/photo2.jpeg" alt="" />
+                    </div>
+                    <div class="card__block">
+                        <div class="card__num">02</div>
+                        <div class="card__label">Hiking Essentials</div>
+                        <div class="card__title">Picking the right Hiking Gear!</div>
+                        <div class="card__txt">
+                            The nice thing about beginning hiking is that you don’t really need any special
+                            gear, you can probably get away with things you already have. Let’s start with
+                            clothing. A typical mistake hiking beginners make is wearing jeans and regular
+                            clothes, which will get heavy and chafe wif they get sweaty or wet.
+                        </div>
+                        <button class="card__btn">read more {{Icon iconName='arrow' }}</button>
+                    </div>
+                </li>
+                <li class="content__item card">
+                    <div class="card__block">
+                        <div class="card__num">03</div>
+                        <div class="card__label">where you go is the key</div>
+                        <div class="card__title">Understand Your Map & Timing</div>
+                        <div class="card__txt">
+                            To start, print out the hiking guide and map. If it’s raining, throw them in a
+                            Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to
+                            expect. I like to know what my next landmark is as I hike. For example, I’ll read
+                            the guide and know that say, in a mile, I make a right turn at the junction..
+                        </div>
+                        <button class="card__btn">read more {{Icon iconName='arrow' }}</button>
+                    </div>
+                    <div class="card__img">
+                        <img src="../../static/img/content/photo3.jpeg" alt="" />
+                    </div>
+                </li>
+            </ul>
         </div>
     </section>
 </div>
