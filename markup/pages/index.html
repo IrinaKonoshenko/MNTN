@@ -7,24 +7,9 @@
     <body class="body">
         %=symbols=%
 
-        <div class="flex flex-col h-screen">
-            <!-- begin::header -->
-            {{> header/header }}
-            <!-- end::header -->
-            <!-- begin::parallax -->
-            {{> parallax/parallax }}
-            <!-- end::parallax -->
-
-            <!-- begin::page-content -->
-            <div class="flex-auto"></div>
-            <!-- begin::end-content -->
-
-            <div class="flex-shrink-0">
-                <!-- begin::footer -->
-                {{> footer/footer }}
-                <!-- end::footer -->
-            </div>
-        </div>
+        <!-- begin::parallax -->
+        {{> parallax/parallax }}
+        <!-- end::parallax -->
 
         <!-- begin::scripts -->
         {{> assets/script }}
